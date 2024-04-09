@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<the49:BottomSheet
+    x:Class="KeyboardAutoScrollRepro.Pages.EditorBottomSheet"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:the49="https://schemas.the49.com/dotnet/2023/maui"
+    CornerRadius="10"
+    HasBackdrop="True">
+    <the49:BottomSheet.Detents>
+        <the49:MediumDetent />
+    </the49:BottomSheet.Detents>
+    <the49:BottomSheet.Content>
+
+        <Grid Padding="20" RowDefinitions="Auto, *">
+            <Label Text="Crash On iOS When Focussing Editor" />
+
+            <Editor Grid.Row="1" Placeholder="Touch me and i crash :(" />
+        </Grid>
+    </the49:BottomSheet.Content>
+</the49:BottomSheet>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    x:Class="KeyboardAutoScrollRepro.Pages.ModalPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Modal Page">
+    <ContentPage.Content>
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <Editor Placeholder="This is an editor that doesnt crash.." />
+
+            <Button
+                x:Name="EditorButton"
+                Clicked="OnClicked"
+                Text="Show Editor Bottom Sheet" />
+
+            <Button
+                x:Name="EntryButton"
+                Clicked="OnClicked"
+                Text="Show Entry Bottom Sheet" />
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>
