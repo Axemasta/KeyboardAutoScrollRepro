@@ -1,4 +1,7 @@
 # Keyboard Auto Scroll Repro
+
+[![Issue Status](https://img.shields.io/github/issues/detail/state/dotnet/maui/21726)](https://github.com/dotnet/maui/issues/21726)
+
 Reproduction on a MAUI crash caused when focussing an Editor/Entry on a modal bottom sheet.
 
 This crash occurs given the following conditions:
